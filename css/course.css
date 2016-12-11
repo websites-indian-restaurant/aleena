@@ -58,8 +58,9 @@ course
   font-size:20px;
 }
 #course span{
-  color:#004200;
-  font-size:25px;
+  color:#E20017;
+  font-family:'Libre Baskerville';
+  font-size:30px;
   font-weight:400;
   padding-left:20px;
   margin-top:200px;
@@ -70,10 +71,12 @@ course
 #course main-course{
   color:#125E4A;
   padding-bottom:20px;
+  font-family: 'Lato';
 }
 
 .course-name {
   color:#852141;
+  font-family: 'Aref Ruqaa';
   font-size:30px;
   padding-top:50px;
   padding-left:100px;
@@ -95,4 +98,20 @@ course
   font-weight:400;
   padding-left:130px;
   margin-top: 20px;
+}
+
+.dishes hot {
+  color: #E20017;
+}
+
+.dishes veryhot {
+  color: #A70000;
+}
+
+.dishes medium {
+  color: #FF7492;
+}
+
+.dishes mild {
+  color: #FFAF92;
 }
