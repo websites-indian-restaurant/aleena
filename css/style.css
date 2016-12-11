@@ -75,13 +75,13 @@ a:hover {
 }
 
 #breadcrumb {
-	background-color: #e60012;
+	background-color: #983245;
 	margin-top: -20px;
 }
 
 .breadcrumb { 
   list-style: none;
-  background-color: #e60012;
+  background-color: #983245;
   border-radius: 0px;
   padding:3px 10px;
 }
