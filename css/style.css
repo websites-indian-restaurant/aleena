@@ -191,6 +191,12 @@ a:hover {
     }
   }
 
+  .carousel-text {
+    color: #CEFFFF;
+    font-size: 46px;
+    font-family: 'Satisfy', sans-serif; 
+    font-weight: 300;
+}
 
 /*===========================
   slider

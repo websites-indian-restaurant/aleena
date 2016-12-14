@@ -26,14 +26,14 @@
 course
 */
 #course {
-  background-image: url(../images/course/menubg8.jpg);
+  background-image: url(../images/course/menubg.gif);
 
   background-size: cover;
 }
 
 #course {
   color: #fff;
-  text-align: left;
+  
   padding:100px;
 }
 
