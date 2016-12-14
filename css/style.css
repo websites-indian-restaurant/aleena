@@ -611,6 +611,95 @@ testimonial
 	border-radius:5px;
 }
 
+/*--
+    footer-footer-contact Start
+--*/
+#footer-contact {
+ /* padding: 70px 0px;*/
+  font-family: 'Reem Kufi';
+}
+#footer-contact .block h3 {
+  color: #2E2E2E;
+ /* padding-bottom: 25px;*/
+}
+#footer-contact .block h3 span {
+  color: #FF4F02;
+}
+#footer-contact .block .blog ul,
+#footer-contact .block .info ul,
+#footer-contact .block ul {
+  /*padding-top: 20px;*/
+}
+#footer-contact .block .blog ul li,
+#footer-contact .block .info ul li,
+#footer-contact .block ul li {
+  /*margin-bottom: 25px;*/
+  display: inline-block;
+  /*margin-right: 20px;*/
+}
+#footer-contact .block .blog ul li h4,
+#footer-contact .block .info ul li h4,
+#footer-contact .block ul li h4 {
+  /*padding-bottom: 10px;*/
+  display: block;
+  color: #FF4F02;
+}
+#footer-contact .block .blog ul li h4 i,
+#footer-contact .block .info ul li h4 i,
+#footer-contact .block .gallary ul li h4 i {
+  color: #555;
+  margin-right: 30px;
+  font-size: 20px;
+}
+#footer-contact .block .blog ul li h4 a,
+#footer-contact .block .info ul li h4 a,
+#footer-contact .block ul li h4 a {
+  color: #FF4F02;
+  font-size: 20px;
+  font-weight: 600;
+}
+#footer-contact .block .blog ul li p,
+#footer-contact .block .info ul li p,
+#footer-contact .block ul li p {
+  color: #474747;
+  font-size: 14px;
+}
+#footer-contact .block time {
+  color: #474747;
+  font-size: 14px;
+  padding-left: 20px;
+}
+#footer-contact .block .social-media-link h3 {
+  font-size: 20px;
+  padding-bottom: 15px;
+  padding-top: 30px;
+}
+#footer-contact .block .social-media-link h3 span {
+  color: #FF4F02;
+}
+#footer-contact .block .social-media-link ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+#footer-contact .block .social-media-link ul li a {
+  display: block;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  font-size: 20px;
+  padding-top: 8px;
+  border-radius: 100%;
+  background: #B0B0B0;
+  color: #FFFFFF;
+  -webkit-transition: .3s all;
+  -o-transition: .3s all;
+  transition: .3s all;
+}
+#footer-contact .block .social-media-link ul li a:hover {
+  background: #FF4F02;
+  color: #fff;
+}
+
 /* --- footer --- */
 .footer {
 	background:#983245;
