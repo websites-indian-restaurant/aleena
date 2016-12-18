@@ -351,11 +351,11 @@ a:hover {
   transition:  color 300ms, background-color 300ms;
 }
 
-#menu, #gallery, #team {
+#gallery, #team {
   padding-top: 100px;
   padding-bottom: 100px;
 }
-#menu, #contact {
+#contact {
     background-color: rgba(221, 221, 221, 0.33);
 }
 
@@ -364,6 +364,10 @@ a:hover {
 }
 
 /* menu section */
+#menu{
+  Padding:30px;
+  background-color: rgba(221, 221, 221, 0.33);
+}
 #menu h4 {
   line-height: 1.5;
 }
@@ -382,8 +386,9 @@ testimonial
 */
 #testimonial {  
   background: url(../images/testimonial/bg3_2.jpg) 50% 50% fixed; 
+  background-size: cover;
   text-align: center;
-  padding: 40px;
+  padding: 30px;
 }
 /*
 #testimonial {  
@@ -425,11 +430,11 @@ testimonial
   color: #FFEE44;
   font-family: 'Satisfy', sans-serif;
   font-size: 46px;
-  padding-bottom: 50px;
 }
 
 #testimonial p {
-  font-family: "Aref Ruqaa";
+  /*font-family: "Aref Ruqaa", sans-serif;*/
+  font-family: "Mirza";
   color: #ffffff;/*#EB2D39;*/
   font-size:30px; 
   padding-top:10px;
