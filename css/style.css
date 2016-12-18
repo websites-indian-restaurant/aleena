@@ -380,43 +380,69 @@ a:hover {
 /*
 testimonial
 */
-#testimonial {
-  background: url(../images/testimonial/bg.jpg) 50% 50% no-repeat;
-  background-size: cover;
+#testimonial {  
+  background: url(../images/testimonial/bg3_2.jpg) 50% 50% fixed; 
+  text-align: center;
+  padding: 40px;
 }
-
+/*
+#testimonial {  
+  text-align: center;
+  position: relative;
+  background: #5C97FF;
+  overflow: hidden;
+}
+#testimonial:before {
+  content: ' ';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  opacity: 0.6;
+  
+  background-image: url('http://placekitten.com/1500/1000');
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  -ms-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-display:fixed;
+}
+(*/
+/*
 #testimonial {
   color: #fff;
   text-align: center;
-  padding:100px;
+  padding:10px;
 }
-
+*/
 #testimonial h2 {
-  color: #fff;
-  font-size:30px;
-  font-weight:600;
+  color: #FFEE44;
+  font-family: 'Satisfy', sans-serif;
+  font-size: 46px;
+  padding-bottom: 50px;
 }
 
 #testimonial p {
-  color: #fff;
-  font-size:20px;
-  
+  font-family: "Aref Ruqaa";
+  color: #ffffff;/*#EB2D39;*/
+  font-size:30px; 
+  padding-top:10px;
 }
-
-.testimonial ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
+/*
+#testimonial .carousel-caption{
+    position:static;
 }
-
-.testimonial ul li{
-  display: inline-block;
-  float: left;
-  width: 20%;
-}
-
-.testimonial ul li a img {
-	margin-top:50px;
+*/
+#testimonial .carousel-content {
+    /*color:black;*/
+    display:flex;
+    align-items:center;
 }
 
 /* --- about us --- */
