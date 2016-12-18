@@ -26,8 +26,7 @@
 course
 */
 #course {
-  background-image: url(../images/course/menubg.gif);
-
+  background-image: url(../images/course/menubg.gif); 
   background-size: cover;
 }
 
