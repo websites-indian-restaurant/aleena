@@ -5,7 +5,7 @@
 @import url('animate.css');
 
 #banner{
-    background: url(../images/course/banner-bg.jpg) no-repeat;
+    background: url(../images/course/banner-bg-big.jpg) no-repeat fixed;
     background-size: cover;
 }
 .bg-color{
