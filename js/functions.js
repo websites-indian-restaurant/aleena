@@ -40,7 +40,6 @@ jQuery(function($) {
 			return false;
 		});
 		
-		$("#ss").click();
 	});
 
 

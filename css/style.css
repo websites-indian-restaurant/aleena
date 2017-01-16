@@ -756,9 +756,14 @@ ul.social-network li {
 ul.social-network li a {	
 	color:#d0d0d0;	
 }
+.social-network li:hover .fa-tripadvisor {
+  color: #6da25a;
+}
+
 .social-network li:hover .fa-twitter {
   color: #00abf0;
 }
+
 .social-network li:hover .fa-facebook {
   color: #39579a;
 }
@@ -882,8 +887,8 @@ ul.social-network li a {
 .portfolio-filter > li a:hover,
 .portfolio-filter > li a.active{
   color:#fff;
-  background: #1BBD36;
-  border: 1px solid #1BBD36;
+  background: #e60012;
+  border: 1px solid #e60012;
   box-shadow: none;
   -webkit-box-shadow: none;
 }
